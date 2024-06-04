@@ -2,3 +2,5 @@
 
 ## VFR Essay
 This is my first paragraph for my VFR essay.
+<param ve-image
+url="https://upload.wikimedia.org/wikipedia/commons/3/34/Bio-Sojabohnenanbau_bei_W%C3%A4ldi_TG.jpg">
