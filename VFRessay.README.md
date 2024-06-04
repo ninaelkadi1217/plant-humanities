@@ -1,24 +1,47 @@
-[![](https://v3.juncture-digital.org/images/wb.svg)](https://v3.juncture-digital.org/wb)
+<a href="https://juncture-digital.org"><img src="https://juncture-digital.org/images/ve-button.png"></a>
 
-<param ve-config
-	   title="Agave: A Plant with an Intoxicating History"
-	   source-image="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Gc29_agave_americana.jpg/1920px-Gc29_agave_americana.jpg"
-	   banner="https://raw.githubusercontent.com/plant-humanities/media/main/images/banners/agave.jpg"
-	   eid="Q104699604"
-	   about="Q155874"
-	   layout="vtl"
-	   num-maps="3"
-	   num-images="8"
-	   num-specimens="0"
-	   num-primary-sources="3"
-	   author="Ashley Buchanan"
-       description="Agave is a genus of monocots, with some 200 species indigenous to Central America, the southwestern United States, and in some tropical areas of South America. Today, agaves are best known as the plant from which tequila is made. While blue agaves grown in Mexico are used to produce tequila in that country, the cultural salience of the plant extends well beyond the world of distilled spirits. Indeed, as this visual narrative shows, agave plants played a central role in ancient Amerindian religion and culture for centuries, encouraged a botanical revolution in Europe, helped form Mexican identity in the nineteenth and twentieth centuries, and offer solutions to present-day environmental challenges.">
+<param ve-config 
+       title="Girl with a Pearl Earring" 
+       banner="https://iiif.juncture-digital.org/banner/?url=https://upload.wikimedia.org/wikipedia/commons/4/47/Bartholomeus_Johannes_van_Hove%2C_Het_Mauritshuis_te_Den_Haag.jpg" 
+       layout="vertical">
 
-<param title="Jalisco" eid="Q13160">
-<param title="Viceroyalty of New Spain" eid="Q170603">
-<param title="human sacrifice in Aztec culture" eid="Q583349" aliases="Aztec gladiatorial sacrifice">
+<!-- Entities discussed throughout the essay are typically defined before the essay text and
+     are thus available in all text.  Entity identifiers (QIDs) can be found in either
+     Wikipedia or Wikidata (https://www.wikidata.org)> -->
+<param ve-entity eid="Q185372"> <!-- Girl with a Pearl Earring painting -->
+<param ve-entity eid="Q41264"> <!-- Johannes Vermeer -->
+<param ve-entity eid="Q221092"> <!-- Mauritshuis -->
+<param ve-entity eid="Q36600"> <!-- The Hague -->
 
-## VFR Essay
-This is my first paragraph for my VFR essay.
-<param ve-image
-url="https://upload.wikimedia.org/wikipedia/commons/3/34/Bio-Sojabohnenanbau_bei_W%C3%A4ldi_TG.jpg">
+# Sample visual essay
+
+This is a sample visual essay demonstrating a few key features of a visual essay.  Complete [Documentation](https://juncture-digital.org/docs) and helpful [examples](https://juncture-digital.org/examples) are available on the [Juncture site](https://juncture-digital.org).
+<param ve-image 
+       manifest="https://iiif.juncture-digital.org/manifest/6dd738aed85597cac540ad31dd5818e86ef7f2918c7b43a9eb3123d5538e6e4c">
+
+# Basic usage
+
+## Image
+
+_Girl with a Pearl Earring_ (Dutch: Meisje met de parel) is an oil painting by Dutch Golden Age painter Johannes Vermeer, dated c. 1665. Going by various names over the centuries, it became known by its present title towards the end of the 20th century after the earring worn by the girl portrayed there.[^1]
+<param ve-image 
+       label="Girl with a Pearl Earring" 
+       description="painting by Johannes Vermeer" 
+       license="public domain" 
+       url="https://upload.wikimedia.org/wikipedia/commons/0/0f/1665_Girl_with_a_Pearl_Earring.jpg">
+
+## Map
+
+The work has been in the collection of the Mauritshuis in The Hague since 1902 and has been the subject of various literary treatments. In 2006, the Dutch public selected it as the most beautiful painting in the Netherlands.
+<param ve-map center="Q36600" zoom="11" prefer-geojson>
+
+## Multiple viewers
+
+Multiple viewers may be defined for a single paragraph of text.  The first viewer defined is displayed as the default viewer.  Others are selectable using icons displayed in the top right margin of the paragraph.
+<param ve-image 
+       manifest="https://iiif.juncture-digital.org/manifest/6dd738aed85597cac540ad31dd5818e86ef7f2918c7b43a9eb3123d5538e6e4c">
+<param ve-map center="Q36600" zoom="11">
+
+# References
+
+[^1]: [Wikipedia: Girl with a Pearl Earring](https://en.wikipedia.org/wiki/Girl_with_a_Pearl_Earring)
