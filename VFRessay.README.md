@@ -38,7 +38,8 @@ The work has been in the collection of the Mauritshuis in The Hague since 1902 a
 center="41.656501, -91.532075"
 zoom="5"
 Title="City of Iowa City"
-show-labels>
+show-labels
+prefer-geojson>
 <param ve-map-layer geojson
 url="https://raw.githubusercontent.com/ninaelkadi1217/plant-humanities/main/IowaMap.json">
 
