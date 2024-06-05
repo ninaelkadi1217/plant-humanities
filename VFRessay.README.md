@@ -41,7 +41,7 @@ The work has been in the collection of the Mauritshuis in The Hague since 1902 a
        show-labels
        prefer-geojson>
 <param ve-map-layer geojson
-       active title="Rough borders of Manchuria"
+       active title="Iowa City"
        url="https://raw.githubusercontent.com/ninaelkadi1217/plant-humanities/main/IowaMap.json"
        show-labels
        show-titles
