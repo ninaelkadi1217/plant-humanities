@@ -39,7 +39,8 @@ center="41.656501, -91.532075"
 zoom="5"
 Title="City of Iowa City"
 show-labels>
-<param ve-map-layer geojson>
+<param ve-map-layer geojson
+url="https://raw.githubusercontent.com/ninaelkadi1217/plant-humanities/main/IowaMap.json">
 
 ## Multiple viewers
 
